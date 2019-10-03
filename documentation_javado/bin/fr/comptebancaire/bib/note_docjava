@@ -1,0 +1,10 @@
+générer javadoc
+
+aller dans eclipse-java-oxygen-workspace/Project/Generate Javadoc
+   -dans rubrique 
+   	javadoc command: /usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/javadoc.exe
+	destination: /home/user/eclipse-java-oxygen-workspace/documentation_javado/docs/apidocs
+CHECKSTYLE:
+	-aller dans Help -> Eclipse Marketpalce -> taper sur la barre de recherche "checkstyle"-> installer Checktyle Plug-in 8.18.0 (finish)
+	-aller dans Windows -> Preferenece -> Ant/checkstyle -> Selectioner "Sun Cheks" -> Copy , set as default -> Apply and choose.
+	-aller dans Project -> Properties -> selectioner checkstyle (Apply and Choose)
